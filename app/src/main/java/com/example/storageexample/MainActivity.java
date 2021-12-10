@@ -36,9 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
         //Create a new file that points to the root directory, with the given name:
 
-        //File file = new File(getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS), "deneme.txt"); // Storage/self/primary/Android/data/com.example.storageexample/files
+        //File file = new File(getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS), "test.txt"); // Storage/self/primary/Android/data/com.example.storageexample/files
         File file = new File(getExternalFilesDir("Belge/Txt/"), "test.txt");
-        // File file = new File(Environment.getExternalStoragePublicDirectory("Resim/"), "Orhan.txt");
+        // File file = new File(Environment.getExternalStoragePublicDirectory("Resim/"), "test.txt");
         // File file = getExternalCacheDir();
         Log.d("@@@", file.getAbsolutePath());
 
